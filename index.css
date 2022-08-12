@@ -20,13 +20,13 @@ body {
     display: flex;
     position: sticky;
     top: 0;
+    position: sticky;
 }
 nav {
 	margin: 27px auto 0;
     display: flex;
-    position: sticky;
     top: 0;
-	position: relative;
+	position: absolute;
     /* 590*/
 	width: 1813px;
     z-index: 110;
@@ -34,6 +34,7 @@ nav {
 	background-color: #34495e;
 	border-radius: 8px;
 	font-size: 0;
+    z-index: 150;
 }
 nav a {
 	line-height: 50px;
@@ -41,7 +42,7 @@ nav a {
 	font-size: 15px;
 	display: inline-block;
 	position: relative;
-	z-index: 1;
+	z-index: 110;
 	text-decoration: none;
 	text-transform: uppercase;
 	text-align: center;
@@ -528,4 +529,4 @@ img {
     right: 1264px;
     z-index: 110;
 }
-  
+
